@@ -9,7 +9,7 @@ const MainRoutes = (props) => {
     return (
         <Routes>
             <Route path="/" element={<AddClient addClient={props.addClientMtd} errors={props.errors} />} />
-         
+            <Route path="/:id" element={<SingleClient clients={props.clients} />} />
             <Route path="/:id/edit" element={<EditClient />} />
             <Route path="/:id/addAction" element={<AddAction />} />
         </Routes>
