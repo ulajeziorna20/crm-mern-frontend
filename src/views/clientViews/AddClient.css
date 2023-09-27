@@ -1,0 +1,48 @@
+.formAdd {
+  padding: 0 40px 0 20px;
+  width: 100%;
+}
+
+.formAdd .errors{
+  margin: 20px 0;
+  background-color: rgba(255, 0, 0, 0.233);
+  border-radius: 5px;
+  width: 350px;
+  padding: 10px 40px;
+}
+
+.formAdd .errors ul {
+  margin: 0;
+  padding: 0;
+}
+
+.formAdd form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formAdd form label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.formAdd form input,
+.formAdd form select,
+.formAdd form textarea {
+  min-width: 200px;
+  max-width: 350px;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.formAdd form .addBtn {
+  margin-top: 10px;
+  width: 150px;
+  background-color: #2681ff;
+  border: 2px solid #2681ff;
+  color: #fff;
+  padding: 7px;
+  font-size: 16px;
+  font-weight: 500;
+}

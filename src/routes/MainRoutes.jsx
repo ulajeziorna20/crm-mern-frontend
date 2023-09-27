@@ -11,6 +11,7 @@ const MainRoutes = (props) => {
             <Route path="/" element={<AddClient addClient={props.addClientMtd} errors={props.errors} />} />
          
             <Route path="/:id/edit" element={<EditClient />} />
+            <Route path="/:id/addAction" element={<AddAction />} />
         </Routes>
     )
 }
