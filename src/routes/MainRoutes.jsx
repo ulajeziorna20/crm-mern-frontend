@@ -1,7 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import AddClient from "../views/clientViews/AddClient";
 import EditClient from "../views/clientViews/EditClient";
-
+import SingleClient from "../views/clientViews/SingleClient";
+import AddAction from "../views/actionViews/AddAction";
 
 
 const MainRoutes = (props) => {

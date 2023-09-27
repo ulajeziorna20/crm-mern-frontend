@@ -18,11 +18,11 @@ const AppNav = (props) => {
                     {props.token && <Link to="/signup">Dodaj Użytkownika</Link>}
                 </li>
                 <li>
-                    {props.token && <Link onClick={()=>{
+                    {props.token && <Link onClick={() => {
                         localStorage.removeItem('jwt');
                         navigate('/login');
                         window.location.reload();
-                        }}>Wyloguj</Link>}
+                    }}>Wyloguj</Link>}
                 </li>
             </ul>
         </nav>

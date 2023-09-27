@@ -3,6 +3,7 @@ import "./App.css";
 
 import { useState } from "react";
 import axios from "axios";
+import AppNav from "./components/AppNav";
 
 const App = () => {
   const [token, setToken] = useState(localStorage.getItem("jwt"));
@@ -11,6 +12,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <AppNav token={token} />
       <AppRoutes token={token} setToken={setToken} />
     </div>
   );

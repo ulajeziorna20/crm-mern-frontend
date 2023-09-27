@@ -1,0 +1,50 @@
+.main {
+  height: 100%;
+}
+
+.main .divide{
+  display: flex;
+  height: 100%;
+}
+
+.main .divide #shortClients {
+  background-color: #f6f6f6;
+  width: 250px;
+  height: auto;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 1;
+  box-shadow: #0000004e 4px 6px 10px 1px;
+}
+
+.main .divide #shortClients input {
+  border-radius: 10px;
+  border: 2px solid rgb(169, 169, 169);
+  padding: 10px;
+  width: 90%;
+  display: block;
+  margin: 20px auto;
+}
+
+.main .divide #shortClients ul {
+  background-color: #fff;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main .divide #shortClients ul li {
+  border-bottom: 2px solid rgb(238, 238, 238);
+  height: 60px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.main .divide #shortClients ul li:first-of-type {
+  border-top: 2px solid rgb(238, 238, 238);
+}
+
+.main .divide #shortClients ul li b {
+  font-size: 20px;
+}
